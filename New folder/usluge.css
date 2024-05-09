@@ -1,0 +1,181 @@
+body {
+	margin:0px;
+	padding:0px;
+	
+}
+
+
+
+.header {
+border-bottom: 3px solid rgba(155, 152, 152, 0.997) ;
+padding-top: 10px;
+	
+}
+
+.page {
+	
+background-color:white;
+
+}
+
+
+
+.column {
+
+	width:100%;
+	margin:0px,auto;
+    padding-left: 10px;
+	
+}
+
+.page .column {
+	height:50vh;
+	
+	
+}
+
+#logo-i-social {
+	display:flex;
+	text-align: center;
+	padding-left: 600px;
+	
+}
+
+
+#main-menu {
+	display:flex;
+}
+
+#main-menu a {
+	flex-grow:1;
+	text-align: center;
+	display:block;
+	padding:10px 0;
+	text-decoration: none;
+	color:black;
+	transition: 400ms;
+    border-radius: 20px;
+	font-style: italic;
+	font-size: 8;
+	
+}
+
+#main-menu a:hover{
+	font-size: larger;
+	background-color: rgb(214, 205, 174);
+}
+#main-menu a.active
+ {
+	background: beige;
+	color:black;
+}
+
+
+.footer{
+	height: 250px;
+	background-color: rgb(225, 217, 192);}
+.mreze{
+	margin-bottom: 20px;
+	padding-left: 80px;
+	padding-top: 10px;
+}
+.mreze a{
+	
+	display: inline-block;
+	width: 50px;
+	height: 50px;
+	line-height: 40px;
+	text-align: center;
+	margin-right:10px ;
+	border-radius: 50px;
+	color:#fff;
+	background-color: #333;
+	box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+	transition: all 0.4s ease;
+}
+.mreze a:hover{
+	transform: translateY(-3px);
+}
+.slika1{
+    display: inline-block;
+    vertical-align: middle;
+    padding-top: 30px;
+    padding-left: 150px;
+    padding-bottom: 30px;
+}
+.slika1 img{
+    box-shadow:0 10px 10px black;
+}
+.slika2{
+    display: inline-block;
+    vertical-align: middle;
+    padding-top: 30px;
+    padding-left: 150px;
+    padding-bottom: 30px;
+}
+
+.slika2 img{
+    box-shadow:0 10px 10px black;
+}
+.slika3{
+    display: inline-block;
+    vertical-align: middle;
+    padding-top: 30px;
+    padding-left: 250px;
+    padding-bottom: 30px;
+}
+.slika3 img{
+    box-shadow:0 10px 10px black;
+    width: 550px;
+}	
+.text1{
+    display: inline-block;
+    vertical-align: middle; 
+    padding-left: 150px;  
+}
+#more{
+    display: none;
+}
+#more1{
+    display: none;
+}
+#more2{
+    display: none;
+}
+.text1 button{
+    width: 150px;
+    border-radius: 10px;
+    border-color: rgb(117, 101, 82);
+    box-shadow: 0 5px 5px rgb(150, 123, 95);
+    height: 30px;
+    background-color: #c6b39e;
+    
+}
+.text2{
+    display: inline-block;
+    vertical-align: middle; 
+    padding-left: 150px;  
+}
+.text3{
+    display: inline-block;
+    vertical-align: middle; 
+    padding-left: 150px;  
+}
+.text3 button{
+    width: 150px;
+    border-radius: 10px;
+    border-color: rgb(117, 101, 82);
+    box-shadow: 0 5px 5px rgb(150, 123, 95);
+    height: 30px;
+    background-color: #c6b39e;
+    
+}
+.text2 button{
+    width: 150px;
+    border-radius: 10px;
+    border-color: rgb(117, 101, 82);
+    box-shadow: 0 5px 5px rgb(150, 123, 95);
+    height: 30px;
+    background-color: #c6b39e;
+    
+}

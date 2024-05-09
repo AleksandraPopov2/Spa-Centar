@@ -1,0 +1,155 @@
+body {
+	margin:0px;
+	padding:0px;
+	
+}
+
+
+
+.header {
+border-bottom: 3px solid rgba(155, 152, 152, 0.997) ;
+padding-top: 10px;
+	
+}
+
+.page {
+	
+background-color:white;
+
+}
+
+
+
+.column {
+
+	width:100%;
+	margin:0px,auto;
+    padding-left: 10px;
+	
+}
+
+.page .column {
+	height:50vh;
+	
+	
+}
+
+#logo-i-social {
+	display:flex;
+	text-align: center;
+	padding-left: 600px;
+	
+}
+
+
+#main-menu {
+	display:flex;
+}
+
+#main-menu a {
+	flex-grow:1;
+	text-align: center;
+	display:block;
+	padding:10px 0;
+	text-decoration: none;
+	color:black;
+	transition: 400ms;
+    border-radius: 20px;
+	font-style: italic;
+	font-size: 8;
+	
+}
+
+#main-menu a:hover{
+	font-size: larger;
+	background-color: rgb(214, 205, 174);
+}
+#main-menu a.active
+ {
+	background: beige;
+	color:black;
+}
+
+
+.cont{
+	vertical-align: middle;
+	display: inline-block;
+}
+.column1{
+ vertical-align: middle;
+	display: inline-block;
+	padding-left: 100px;
+	padding-top: 50px;
+	transition: 0.4s ease;
+	overflow: hidden; 
+}
+.column1 img{
+	width: 600px;
+	transition: 1s ease-in-out;
+}
+.column1:hover img{
+	transform: scale(1.2);
+	
+	}
+  
+  .column2 {
+	vertical-align: middle;
+	display: inline-block;
+	width: 500px;
+	padding-left: 200px;
+	padding-top: 60px;
+	transition: 0.4s ease;
+	overflow: hidden;
+	
+}
+
+
+.column3{
+	height: 400px;
+	vertical-align: middle;
+	display: inline-block;
+	width: 500px;
+	padding-left: 800px;
+	padding-top: 60px;
+	overflow: hidden;
+	
+
+}
+.column3 img{
+	width: 400px;
+	transition: 1s ease-in-out;
+}
+
+.column3:hover img{
+transform: scale(1.2);
+
+}
+.footer{
+	height: 250px;
+	background-color: rgb(225, 217, 192);}
+.mreze{
+	margin-bottom: 20px;
+	padding-left: 80px;
+	padding-top: 10px;
+}
+.mreze a{
+	
+	display: inline-block;
+	width: 50px;
+	height: 50px;
+	line-height: 40px;
+	text-align: center;
+	margin-right:10px ;
+	border-radius: 50px;
+	color:#fff;
+	background-color: #333;
+	box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+	transition: all 0.4s ease;
+}
+.mreze a:hover{
+	transform: translateY(-3px);
+}
+	
+	
+
+
